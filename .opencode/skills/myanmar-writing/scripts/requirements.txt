@@ -1,0 +1,8 @@
+# Optional but recommended: enables accurate Zawgyi vs Unicode detection.
+#
+# Pure Python, no compiled dependencies, ~28 KB model. Install with:
+#     pip install -r requirements.txt
+#
+# Without it, validate.py still runs but Zawgyi detection falls back to a
+# weak heuristic and the script says so on stderr.
+myanmartools==1.2.1

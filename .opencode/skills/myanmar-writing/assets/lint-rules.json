@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "_comment": "Mechanical checks only. Native voice must be reviewed against the brief and approved examples.",
+  "registers": {
+    "professional": {
+      "latin_ratio": [0.0, 1.0],
+      "max_sentence_words": 999,
+      "allow_emoji": true,
+      "ascii_terminal": "warn",
+      "forbid_terms": [],
+      "max_emoji_per_100": 999
+    },
+    "casual": {
+      "latin_ratio": [0.0, 1.0],
+      "max_sentence_words": 999,
+      "allow_emoji": true,
+      "ascii_terminal": "warn",
+      "forbid_terms": [],
+      "max_emoji_per_100": 999
+    },
+    "formal": {
+      "latin_ratio": [0.0, 1.0],
+      "max_sentence_words": 999,
+      "allow_emoji": true,
+      "ascii_terminal": "warn",
+      "forbid_terms": [],
+      "max_emoji_per_100": 999
+    },
+    "diaspora": {
+      "latin_ratio": [0.0, 1.0],
+      "max_sentence_words": 999,
+      "allow_emoji": true,
+      "ascii_terminal": "warn",
+      "forbid_terms": [],
+      "max_emoji_per_100": 999
+    }
+  },
+  "formats": {
+    "generic": {"units": null, "max_chars": null, "title_chars": null},
+    "facebook": {"units": null, "max_chars": null, "title_chars": null},
+    "web": {"units": null, "max_chars": null, "title_chars": null},
+    "blog": {"units": null, "max_chars": null, "title_chars": null},
+    "social": {"units": null, "max_chars": null, "title_chars": null},
+    "landing": {"units": null, "max_chars": null, "title_chars": null},
+    "tutorial": {"units": null, "max_chars": null, "title_chars": null},
+    "linkedin": {"units": null, "max_chars": null, "title_chars": null},
+    "thread": {"units": null, "max_chars": null, "title_chars": null},
+    "announcement": {"units": null, "max_chars": null, "title_chars": null},
+    "script": {"units": null, "max_chars": null, "title_chars": null},
+    "docs": {"units": null, "max_chars": null, "title_chars": null},
+    "class": {"units": null, "max_chars": null, "title_chars": null},
+    "program": {"units": null, "max_chars": null, "title_chars": null},
+    "analysis": {"units": null, "max_chars": null, "title_chars": null}
+  },
+  "banned_phrases": [],
+  "overused": [],
+  "avoid_transliterations": [],
+  "awkward_phrases": [],
+  "placeholders": [
+    "TODO",
+    "FIXME",
+    "TBD",
+    "XXX",
+    "Lorem ipsum",
+    "lorem ipsum",
+    "[[",
+    "]]",
+    "<placeholder>",
+    "PLACEHOLDER"
+  ]
+}
